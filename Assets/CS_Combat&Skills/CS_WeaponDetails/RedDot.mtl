@@ -1,0 +1,20 @@
+newmtl Black
+Kd 0.1132075 0.1132075 0.1132075
+d 1
+
+newmtl White
+Kd 1 1 1
+d 1
+
+newmtl GreyMetal
+Kd 0.6698113 0.6698113 0.6698113
+d 1
+
+newmtl Clear
+Kd 1 1 1
+d 0
+
+newmtl Red_1
+Kd 1 0.08018869 0.08018869
+d 0.7176471
+

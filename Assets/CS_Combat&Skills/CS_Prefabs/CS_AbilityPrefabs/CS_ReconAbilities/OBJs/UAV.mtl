@@ -1,0 +1,8 @@
+newmtl Black
+Kd 0.1132075 0.1132075 0.1132075
+d 1
+
+newmtl GreenGlow
+Kd 0.1789567 1 0
+d 1
+

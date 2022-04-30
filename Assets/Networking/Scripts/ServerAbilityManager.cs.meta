@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 574fdc64b90db7d49bf69b2c5114d09a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - revealShader: {fileID: 4800000, guid: 2c2fd72da82df6846a081ddae8b2e6dd, type: 3}
+  - defaultShader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  - flashCanvas: {instanceID: 0}
+  - muzzleFlash: {instanceID: 0}
+  - decal: {instanceID: 0}
+  - sparks: {instanceID: 0}
+  - ripple: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Drone
+  - BioGrenade
+  - Ground Check
+  - FiringPoint
+  - HUD
+  - Projectile
+  - Enemy
+  - SkillTree
+  - Infantry
+  - Plane
+  - Tank
+  - NetworkedPlayerStart
+  - FPSCamera
+  - Node
+  - AI_RED
+  - AI_BLUE
+  - AIHandler
+  - Group1
+  - Group2
+  - Group3
+  - Group4
+  - Group5
+  - Group6
+  - Group7
+  - Group8
+  - Group9
+  - Group10
+  - CardManager
+  - GameFinishedUI
+  - BubbleHolder
+  - BubbleShield
+  - AI_Manager
+  - LocalAudioEmitter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Weapon
+  - Plane
+  - Enemy
+  - Ground
+  - Player
+  - AmpShield
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - AI_RED
+  - AI_BLUE
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

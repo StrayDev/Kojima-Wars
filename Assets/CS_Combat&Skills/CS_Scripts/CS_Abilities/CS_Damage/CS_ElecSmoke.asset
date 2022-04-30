@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330f1d4c03d7beb45b4c187393fc3d72, type: 3}
+  m_Name: CS_ElecSmoke
+  m_EditorClassIdentifier: 
+  abilityName: Electric Smoke
+  abilityDescription: Deploy an electrified smoke screen, blocking vision and damaging
+    enemies.
+  cooldownTime: 5
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: e9b1d052814aedd469ec9678cedc6251, type: 3}
+  abilityPrefab: {fileID: 4859739404253865382, guid: 7a38ab0589ffa6e4689d7972cbedd8b4, type: 3}
+  id: 5

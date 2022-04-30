@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2139f98efa37e4eb5ce203d2f0b04c, type: 3}
+  m_Name: ReconGrenade
+  m_EditorClassIdentifier: 
+  abilityName: Recon Grenade
+  abilityDescription: Toss a recon grenade, revealing nearby enemies on detonation.
+  cooldownTime: 10
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: 84d57ef077e2938408c1bf66edf77efd, type: 3}
+  abilityPrefab: {fileID: 8722444856627684470, guid: 47cf70a77471c104791ac66e9fc579cf, type: 3}
+  id: 6
+  droneActive: 0

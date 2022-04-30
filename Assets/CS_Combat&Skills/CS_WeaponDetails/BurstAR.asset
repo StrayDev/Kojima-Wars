@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6023d09833e1b40a9c00656b103241, type: 3}
+  m_Name: BurstAR
+  m_EditorClassIdentifier: 
+  weaponName: Burst Rifle
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20
+      inSlope: 0
+      outSlope: -0.02
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1000
+      value: 0
+      inSlope: -0.02
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fireRate: 2
+  magazineSize: 18
+  reloadType: 0
+  reloadTime: 1
+  automaticallyReload: 0
+  canADS: 1
+  ADSTime: 0.3
+  ADSZoom: 30
+  hipfireSpread: 1
+  ADSSpread: 0.3
+  hipfireRecoil: {x: 0.65, y: 1.25, z: 0.1}
+  ADSRecoil: {x: 0.4, y: 0.8, z: 0.1}
+  recoilSnappiness: 70
+  recoilRecoveryCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 15
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  weaponModel: {fileID: 6513462501660768856, guid: a653d6e7e5639d74a9c0aa09d91efc68, type: 3}
+  icon: {fileID: 21300000, guid: 21f4bf8cca25eed46b2eaf490cc7edac, type: 3}
+  shootSound: event:/Gunshots/Burst_Rifle
+  reloadSound: event:/Reloads/Clunky
+  automatic: 0
+  firingMode: 1
+  bulletsPerBurst: 3
+  timeBetweenBursts: 0.1
+  numberOfPellets: 10
+  projectile: {fileID: 0}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe967c5bb7f1e0045b31bca00e143a19, type: 3}
+  m_Name: CombatAudioData
+  m_EditorClassIdentifier: 
+  pistolShot: event:/Gunshots/Pistol
+  silencedShot: 
+  minigunShot: event:/Jet/Minigun
+  assaultRifleShot: event:/Gunshots/Assault_Rifle
+  burstRifleShot: event:/Gunshots/Burst_Rifle
+  submachineGunShot: event:/Gunshots/SMG
+  sniperShot: event:/Gunshots/Sniper_Rifle
+  pistolReload: 
+  minigunReload: 
+  assaultRifleReload: 
+  burstRifleReload: 
+  submachineGunReload: 
+  sniperReload: 
+  shieldRegen: 
+  shieldImpact: 
+  shieldDeploy: 
+  weaponSwap: 
+  toss: 
+  flames: 
+  explosion: 
+  laser: 
+  pulse: 
+  beep: 
+  buzz: 
+  spark: 
+  radioStatic: 
+  poweringUp: 
+  plasma: 
+  lockOn: 
+  bombFall: 
+  stunGrenade: 
+  flashBang: 
+  smokeGrenade: 
+  missileFire: 
+  concussionBlast: 
+  mechSlam: 
+  electricCamo: 
+  teleportCharge: 
+  teleportFire: 
+  revealed: 
+  hacking: 
+  turretPlaced: 
+  turretFire: 
+  turretTurn: 
+  turretHit: 

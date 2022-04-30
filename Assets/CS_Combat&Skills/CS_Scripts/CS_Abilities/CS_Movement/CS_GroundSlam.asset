@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de90fde1bc0b0c64eb76cd35ac338908, type: 3}
+  m_Name: CS_GroundSlam
+  m_EditorClassIdentifier: 
+  abilityName: Ground Slam
+  abilityDescription: Shatter the ground in front of you, stunning enemies in range.
+  cooldownTime: 3
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: b5aae2bdbe8f39b4591cbd9a87dd1333, type: 3}
+  abilityPrefab: {fileID: 7113791108465702039, guid: dab5b04998ed2494d8f822d5f4f2dd7a, type: 3}
+  id: 2
+  BasesNotSpawned: 1

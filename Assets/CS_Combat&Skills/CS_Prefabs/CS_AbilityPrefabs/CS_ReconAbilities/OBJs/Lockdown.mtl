@@ -1,0 +1,20 @@
+newmtl White
+Kd 1 1 1
+d 1
+
+newmtl Black
+Kd 0.1132075 0.1132075 0.1132075
+d 1
+
+newmtl Orange
+Kd 0.6320754 0.3643729 0
+d 1
+
+newmtl GreyMetal
+Kd 0.6698113 0.6698113 0.6698113
+d 1
+
+newmtl BlueGlow
+Kd 0.1462264 0.929663 1
+d 1
+

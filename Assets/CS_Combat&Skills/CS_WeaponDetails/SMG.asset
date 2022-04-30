@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6023d09833e1b40a9c00656b103241, type: 3}
+  m_Name: SMG
+  m_EditorClassIdentifier: 
+  weaponName: SMG
+  damage: 10
+  timeBetweenShooting: 0.02
+  spread: 0
+  adsSpread: 0
+  range: 100
+  reloadTime: 0.7
+  timeBetweenShots: 0
+  adsSpeed: 15
+  magazineSize: 30
+  bulletsPerTap: 1
+  allowButtonHold: 1
+  allowADS: 1
+  autoReload: 0
+  usesShells: 0
+  usesScope: 0
+  isHitscan: 1
+  hasWeapon: 1
+  recoilX: -0.6
+  recoilY: 1.5
+  recoilZ: 0.15
+  aimRecoilX: -0.3
+  aimRecoilY: 1
+  aimRecoilZ: 0.15
+  snapiness: 6
+  returnSpeed: 2.5
+  gunModel: {fileID: 6513462501660768856, guid: 7bb08394bef9e15478a5fa89fecc146b, type: 3}
+  icon: {fileID: 21300000, guid: b5f74106ffc789448a5895b3aa94f0bc, type: 3}
+  shootSound: event:/Gunshots/SMG
+  reloadSound: event:/Reloads/Complex
+  projectileAmmo: {fileID: 0}
+  shootForce: 0
+  upwardForce: 0

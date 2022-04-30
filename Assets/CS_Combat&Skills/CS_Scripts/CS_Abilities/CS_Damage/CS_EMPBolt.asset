@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330f1d4c03d7beb45b4c187393fc3d72, type: 3}
+  m_Name: CS_EMPBolt
+  m_EditorClassIdentifier: 
+  abilityName: EMPBolt
+  abilityDescription: Fire a beam of Electromagnetic energy, disabling enemy aircraft.
+  cooldownTime: 0
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: 349412fcab21e8644bf9669fd15122aa, type: 3}
+  abilityPrefab: {fileID: 3846065984567111647, guid: 86884a39efd39cc4991823b17218e142, type: 3}
+  id: 6

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a969ce533b2d2d34484d0c5cbd0b590f, type: 3}
+  m_Name: BaseDefencesData
+  m_EditorClassIdentifier: 
+  m_defences:
+  - DefencesType: 0
+    Prefab: {fileID: 2194053487813456347, guid: 0d602c82d6f867e41b79eb080a713bc3, type: 3}
+    Icon: {fileID: 21300000, guid: ae7b39c6b850d9d4a908b33c75bf4c09, type: 3}
+    Name: Basic Turret
+    Description: It's a basic turret, it shoots.
+    Cost: 5
+  - DefencesType: 1
+    Prefab: {fileID: 7763248156294885299, guid: c7427f78469e4174e81a4d9f4bac3a01, type: 3}
+    Icon: {fileID: 21300000, guid: 4c5cd43f265d4f441a40cb2add86bf48, type: 3}
+    Name: Plasma Turret
+    Description: It shoots plasma.
+    Cost: 6
+  - DefencesType: 2
+    Prefab: {fileID: 7937007480138560703, guid: cb061b522a3e3b749b8b8fd38c568925, type: 3}
+    Icon: {fileID: 21300000, guid: 9dd21b0ec7b5ad049990e7c5e21028c2, type: 3}
+    Name: Minigun Turret
+    Description: It shoots really fast.
+    Cost: 7
+  - DefencesType: 3
+    Prefab: {fileID: 2230106959993701185, guid: f11e0f2b2b4e8f1428c5052fa46f3b19, type: 3}
+    Icon: {fileID: 21300000, guid: 1cc4950585616884f90aa45915c917a2, type: 3}
+    Name: Ice Turret
+    Description: It's cold.
+    Cost: 7
+  - DefencesType: 4
+    Prefab: {fileID: 3605786252666670641, guid: 2ec83d48322c28f4fb12472624562841, type: 3}
+    Icon: {fileID: 21300000, guid: 41348d966ac228c4c8b951fe482ecc3b, type: 3}
+    Name: Fire Turret
+    Description: It's hot.
+    Cost: 7

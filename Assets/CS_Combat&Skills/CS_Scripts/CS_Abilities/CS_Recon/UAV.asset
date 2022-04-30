@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2139f98efa37e4eb5ce203d2f0b04c, type: 3}
+  m_Name: UAV
+  m_EditorClassIdentifier: 
+  abilityName: UAV
+  abilityDescription: Call in a personal UAV drone, revealing nearby enemies.
+  cooldownTime: 90
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: f7e070a705398d84487342d59c711017, type: 3}
+  abilityPrefab: {fileID: 2221078081961456007, guid: fbd903ef699dffe48891a172ba0e7f32, type: 3}
+  id: 2
+  droneActive: 0

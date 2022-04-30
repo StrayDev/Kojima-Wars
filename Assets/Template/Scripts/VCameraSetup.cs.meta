@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 16220712694f054449eaaf711b0b7ad5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - vCamera: {instanceID: 0}
+  - appData: {fileID: 11400000, guid: 6e9d7ca5bde06d741b5eeaeab9fee8e9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

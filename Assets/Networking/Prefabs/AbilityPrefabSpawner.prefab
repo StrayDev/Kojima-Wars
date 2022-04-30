@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1347438226673421105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347438226673421104}
+  - component: {fileID: 1347438226673421107}
+  - component: {fileID: 6038569796673859469}
+  m_Layer: 0
+  m_Name: AbilityPrefabSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1347438226673421104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347438226673421105}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -802.08417, y: 241.5252, z: 2817.4607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1347438226673421107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347438226673421105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f04f321334d91346bc8409107d38cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAbilities:
+  - {fileID: 11400000, guid: 69aee599d16a27d4a93e874bcaf53789, type: 2}
+  - {fileID: 11400000, guid: 86eb3fdde3462fd4ebaaa1f852bae098, type: 2}
+  - {fileID: 11400000, guid: e8b5b0f7333d0e5428f166198e420a59, type: 2}
+  - {fileID: 11400000, guid: d0151477e253d8d48bb2df513e15caed, type: 2}
+  - {fileID: 11400000, guid: 652679dd94aa00743a3e59b8f61b3205, type: 2}
+  - {fileID: 11400000, guid: 4d83d6d97ac48e948a8032af59af5f2c, type: 2}
+  - {fileID: 11400000, guid: 24d6985591dde124d84b0fd412967b02, type: 2}
+  - {fileID: 11400000, guid: 3272522b259fbc14b9e47702ea290f41, type: 2}
+  - {fileID: 11400000, guid: 94f910f51519cd84cba9bcf7c0c027d7, type: 2}
+  defenceAbilities:
+  - {fileID: 11400000, guid: 384e950064469b54986100cc0921f84c, type: 2}
+  - {fileID: 11400000, guid: 259498ab532b99a4bb0a0556cfd2eb57, type: 2}
+  - {fileID: 11400000, guid: fd0f7234b5a97244d9b6d458c2072880, type: 2}
+  - {fileID: 11400000, guid: 9f4387516b292fc4583b7d548302b739, type: 2}
+  - {fileID: 11400000, guid: fb883587166617847aeab1a4b40ff3eb, type: 2}
+  - {fileID: 11400000, guid: 2994d170eb7d18d4b9432021d3b4d0e9, type: 2}
+  - {fileID: 11400000, guid: 7bd592693d0e87a43a3222911fd7541d, type: 2}
+  - {fileID: 11400000, guid: bc0f2e8ae3a5b4d41abc2e81f22a99f8, type: 2}
+  movementAbilities:
+  - {fileID: 11400000, guid: db4816bff65216648bc2d886e991c0d8, type: 2}
+  - {fileID: 11400000, guid: 6c25a91fd1cbe7a40a6fb6d4ec6a71bc, type: 2}
+  - {fileID: 11400000, guid: 27c2c1d375d219e42942133a7de47263, type: 2}
+  - {fileID: 11400000, guid: dca55979ba39e4641be6e72902bd0a20, type: 2}
+  - {fileID: 11400000, guid: eefaaf49129d75f479aac52c2aef548f, type: 2}
+  - {fileID: 11400000, guid: a7c1d5a3f50cb9d40a45a1b03f8503f2, type: 2}
+  - {fileID: 11400000, guid: 0bfd05e048e50d943b1232ff7426c493, type: 2}
+  - {fileID: 11400000, guid: 84f179d4665af824fb5cc4b5d4a0c2eb, type: 2}
+  reconAbilities:
+  - {fileID: 11400000, guid: 6035ad8056371c7458be09db88f7dfee, type: 2}
+  - {fileID: 11400000, guid: 1919f0678f7e68342ac51a6bdacc13a7, type: 2}
+  - {fileID: 11400000, guid: bc5b5dff59211d540a2908f975a8a09e, type: 2}
+  - {fileID: 11400000, guid: 98d4e09832f7192409686c02a462742c, type: 2}
+  - {fileID: 11400000, guid: 6456029551841574baf088a9075f8c48, type: 2}
+  - {fileID: 11400000, guid: c53dafde638e8d44e9e84f70cf40d0ba, type: 2}
+  - {fileID: 11400000, guid: 6acb4a1c6af0ae847a4d295fc49b071f, type: 2}
+  - {fileID: 11400000, guid: d183bb00cf86f46469316bf90f62dc29, type: 2}
+  - {fileID: 11400000, guid: a3010def752585a4b8f006705cb1021c, type: 2}
+  - {fileID: 11400000, guid: 24b4b9c49222d79449fb59578e96f109, type: 2}
+--- !u!114 &6038569796673859469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347438226673421105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

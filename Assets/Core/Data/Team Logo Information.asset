@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb9af473e8c6e644fae36e544af4135c, type: 3}
+  m_Name: Team Logo Information
+  m_EditorClassIdentifier: 
+  teamLogos:
+  - {fileID: 21300000, guid: c4cf1b11cd065454f9bf928de56bdeb3, type: 3}
+  - {fileID: 21300000, guid: c8d983ba99d9a3e4d92d146965dd26ac, type: 3}
+  - {fileID: 21300000, guid: 8922df41d8506034fb8d291f86b827cf, type: 3}
+  - {fileID: 21300000, guid: bd41f9f47e252264bade005d7aee1327, type: 3}
+  - {fileID: 21300000, guid: deff9c7f05d78884cbeee51293660c90, type: 3}
+  - {fileID: 21300000, guid: 1ec552d0e4198b74e8630c28f0d6fb27, type: 3}
+  - {fileID: 21300000, guid: 287077c1bdfa24348bc96ba008f48eec, type: 3}
+  teamNames:
+  - Super Cool Game Team
+  - Foundation Games
+  - Random Idiots
+  - Creative Team Name
+  - Stupid Bricks
+  - Team Autumnsoft
+  - Case Games
+  validTeamColours:
+  - {r: 0.6877581, g: 0.21941373, b: 0.8113208, a: 1}
+  - {r: 0.11878477, g: 0.8584906, b: 0.6490856, a: 1}
+  - {r: 0.7075472, g: 0.104574524, b: 0.2578815, a: 1}
+  - {r: 0, g: 0.5471698, b: 0.05905901, a: 1}
+  - {r: 0.8962264, g: 0.5432661, b: 0, a: 1}
+  - {r: 0, g: 0.7995036, b: 0.990566, a: 1}
+  - {r: 0.05132322, g: 0.9056604, b: 0.039871756, a: 1}
+  - {r: 0.04690275, g: 0.38399187, b: 0.8773585, a: 1}
+  - {r: 0.9528302, g: 0.09588221, b: 0.7365926, a: 1}
+  - {r: 0.8490566, g: 0.15952829, b: 0, a: 1}
+  - {r: 1, g: 0.9603822, b: 0, a: 1}

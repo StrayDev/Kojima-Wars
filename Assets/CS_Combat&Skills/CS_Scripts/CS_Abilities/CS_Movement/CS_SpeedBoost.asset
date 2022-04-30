@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de90fde1bc0b0c64eb76cd35ac338908, type: 3}
+  m_Name: CS_SpeedBoost
+  m_EditorClassIdentifier: 
+  abilityName: SpeedBoost
+  abilityDescription: Temporarily overload, gaining a substantial speed boost.
+  cooldownTime: 60
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: 3c4fbcaba1bca0040837ae1259ade0fa, type: 3}
+  abilityPrefab: {fileID: 1083144971012671086, guid: 13fbcb2ac6d93ee4d8c62b4aefcd2ebf, type: 3}
+  id: 6
+  BasesNotSpawned: 1

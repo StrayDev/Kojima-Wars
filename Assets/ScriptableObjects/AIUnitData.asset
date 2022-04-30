@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d894f6b1682d9140941ece8c847d9f4, type: 3}
+  m_Name: AIUnitData
+  m_EditorClassIdentifier: 
+  m_units:
+  - unitTitle: Tank
+    unitType: 0
+    modelPrefab: {fileID: 519844492472268761, guid: ec45133bb35b6be49b113e938c845970, type: 3}
+    teamColorMaterialIndex: 2
+    damageStrength: 10
+    unitImage: {fileID: 21300000, guid: 1e39da0a9296dc2458cde5d6283a3acd, type: 3}
+    unitDesc: This is a default tank unit
+    unitSpawnAmount: 5
+    unitCost: 20
+    unitOffsetPos: 0
+    unitSpawnTime: 10

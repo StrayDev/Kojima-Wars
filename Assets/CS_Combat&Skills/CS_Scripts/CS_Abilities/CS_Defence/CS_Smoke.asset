@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b6767743786404fb0a5935598d4501, type: 3}
+  m_Name: CS_Smoke
+  m_EditorClassIdentifier: 
+  abilityName: SmokeGrenade
+  abilityDescription: Toss a smoke grenade, deploying a smoke screen on detonation.
+  cooldownTime: 15
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: 71d659039883f48498ee9aeb4dfeb912, type: 3}
+  abilityPrefab: {fileID: 4859739404253865382, guid: 4c32f6b97fc119f44bd40053b87a10cf, type: 3}
+  id: 6

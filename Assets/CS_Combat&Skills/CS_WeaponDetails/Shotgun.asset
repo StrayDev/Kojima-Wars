@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6023d09833e1b40a9c00656b103241, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  damageFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 20
+      inSlope: 0
+      outSlope: -0.02
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1000
+      value: 0
+      inSlope: -0.02
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  fireRate: 30
+  magazineSize: 6
+  reloadType: 1
+  reloadTime: 2
+  automaticallyReload: 0
+  canADS: 1
+  ADSTime: 0.4
+  ADSZoom: 20
+  hipfireSpread: 5
+  ADSSpread: 4
+  hipfireRecoil: {x: 1, y: 0.75, z: 0.1}
+  ADSRecoil: {x: 0.6, y: 0.5, z: 0.1}
+  recoilSnappiness: 100
+  recoilRecoveryCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 10
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  weaponModel: {fileID: 6513462501660768856, guid: d4e8405ada9fd2f45ab190eabf47ef20, type: 3}
+  icon: {fileID: 21300000, guid: e67acec70d25eba4499b195fb5ed79e6, type: 3}
+  shootSound: event:/Gunshots/Shotgun
+  reloadSound: event:/Reloads/Soft
+  automatic: 1
+  firingMode: 0
+  bulletsPerBurst: 3
+  timeBetweenBursts: 1
+  numberOfPellets: 10
+  projectile: {fileID: 0}

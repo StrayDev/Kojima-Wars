@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de90fde1bc0b0c64eb76cd35ac338908, type: 3}
+  m_Name: CS_BaseTP
+  m_EditorClassIdentifier: 
+  abilityName: BaseTP
+  abilityDescription: 'NOT USED
+
+'
+  cooldownTime: 0
+  activeTime: 0
+  abilityIcon: {fileID: 21300000, guid: 012848a9d406f834d8602ac6aa188eb3, type: 3}
+  abilityPrefab: {fileID: 5448597129190278296, guid: 90cdda6e77beccf4da35dbd456581c3a, type: 3}
+  id: 8
+  BasesNotSpawned: 1

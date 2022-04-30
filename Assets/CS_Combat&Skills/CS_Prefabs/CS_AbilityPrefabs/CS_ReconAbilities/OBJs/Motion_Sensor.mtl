@@ -1,0 +1,12 @@
+newmtl GreenGlow
+Kd 0.1789567 1 0
+d 1
+
+newmtl Black
+Kd 0.03773582 0.03773582 0.03773582
+d 1
+
+newmtl GreyMetal
+Kd 0.6698113 0.6698113 0.6698113
+d 1
+

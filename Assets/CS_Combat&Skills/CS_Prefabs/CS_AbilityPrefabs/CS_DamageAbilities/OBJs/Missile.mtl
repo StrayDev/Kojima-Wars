@@ -1,0 +1,12 @@
+newmtl White
+Kd 1 1 1
+d 1
+
+newmtl Black
+Kd 0.1132075 0.1132075 0.1132075
+d 1
+
+newmtl Red
+Kd 1 0.08018869 0.08018869
+d 1
+

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: fc648ebac04ea984b8be2e3e8b5c450b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - model: {instanceID: 0}
+  - canvas: {instanceID: 0}
+  - damageAbilityOne: {instanceID: 0}
+  - damageAbilityTwo: {instanceID: 0}
+  - damageAbilityThree: {instanceID: 0}
+  - movementAbilityOne: {instanceID: 0}
+  - movementAbilityTwo: {instanceID: 0}
+  - movementAbilityThree: {instanceID: 0}
+  - defenceAbilityOne: {instanceID: 0}
+  - defenceAbilityTwo: {instanceID: 0}
+  - defenceAbilityThree: {instanceID: 0}
+  - reconAbilityOne: {instanceID: 0}
+  - reconAbilityTwo: {instanceID: 0}
+  - reconAbilityThree: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
